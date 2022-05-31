@@ -1,7 +1,7 @@
 {
-  "name": "connect-session-knex",
-  "description": "A knex.js session store for Express and Connect",
-  "version": "3.0.0",
+  "name": "@ariel-biton-sharecare/connect-session-knex",
+  "description": "A knex.js session store for Express and Connect (temp fork to support knex 2.1.0)",
+  "version": "3.0.1",
   "main": "lib/index.js",
   "typings": "typings/index.d.ts",
   "engines": {
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:gx0r/connect-session-knex.git"
+    "url": "git@github.com:ariel-biton-sharecare/connect-session-knex.git"
   },
   "bugs": {
     "url": "https://github.com/gx0r/connect-session-knex/issues"
@@ -27,7 +27,7 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.7.2",
-    "knex": "^2.0.0"
+    "knex": "^2.1.0"
   },
   "devDependencies": {
     "eslint": "^8.2.0",

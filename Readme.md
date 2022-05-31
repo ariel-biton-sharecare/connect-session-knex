@@ -1,3 +1,5 @@
+Temporary fork to work with Knex 2.1.0
+
 # Connect Session Knex
 
 
