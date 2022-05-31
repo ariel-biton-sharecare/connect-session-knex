@@ -1,4 +1,4 @@
-import Knex from 'knex';
+import { Knex } from 'knex';
 import expressSession, { Store } from 'express-session';
 
 declare module 'connect-session-knex' {
@@ -16,6 +16,5 @@ declare module 'connect-session-knex' {
         new (configs?: ConfigType): Store;
     }
 
-    function initFunction(session: typeof expressSession): StoreFactory;
-    export = initFunction;
+    export default function initFunction(session: typeof expressSession): StoreFactory;
 }
