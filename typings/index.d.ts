@@ -1,7 +1,7 @@
 import { Knex } from 'knex';
 import expressSession, { Store } from 'express-session';
 
-declare module 'connect-session-knex' {
+declare module '@ariel-biton-sharecare/connect-session-knex' {
     type ConfigType = {
       tablename?: string;
       sidfieldname?: string;

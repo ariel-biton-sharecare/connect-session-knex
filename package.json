@@ -1,7 +1,7 @@
 {
   "name": "@ariel-biton-sharecare/connect-session-knex",
   "description": "A knex.js session store for Express and Connect (temp fork to support knex 2.1.0)",
-  "version": "3.0.1",
+  "version": "3.0.3",
   "main": "lib/index.js",
   "typings": "typings/index.d.ts",
   "engines": {
